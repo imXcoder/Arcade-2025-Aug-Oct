@@ -10,9 +10,9 @@ NO_COLOR=$'\033[0m'
 BOLD_TEXT=`tput bold`
 RESET_FORMAT=`tput sgr0`
 
-
+echo
 echo "${PURPLE_COLOR}${BOLD_TEXT}=============================================${RESET_FORMAT}"
-echo "${PURPLE_COLOR}${BOLD_TEXT}       GOOGLE CLOUD ARCADE SOLUTION 2024     ${RESET_FORMAT}"
+echo "${PURPLE_COLOR}${BOLD_TEXT}            GOOGLE CLOUD ARCADE 2025         ${RESET_FORMAT}"
 echo "${PURPLE_COLOR}${BOLD_TEXT}=============================================${RESET_FORMAT}"
 echo
 
@@ -55,6 +55,6 @@ gcloud compute ssh --zone "$ZONE" "lab-setup" --project "$DEVSHELL_PROJECT_ID" -
 
 echo
 echo "${PURPLE_COLOR}${BOLD_TEXT}=============================================${RESET_FORMAT}"
-echo "${PURPLE_COLOR}${BOLD_TEXT}       GOOGLE CLOUD ARCADE SOLUTION 2024     ${RESET_FORMAT}"
+echo "${PURPLE_COLOR}${BOLD_TEXT}            GOOGLE CLOUD ARCADE 2025         ${RESET_FORMAT}"
 echo "${PURPLE_COLOR}${BOLD_TEXT}=============================================${RESET_FORMAT}"
 echo
